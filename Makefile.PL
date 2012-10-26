@@ -2,15 +2,15 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "map ABS's to the LAPD phonetic letter names",
-  "AUTHOR" => "Graham Ollis <perl\@wdlabs.com>",
+  "ABSTRACT" => "map ABC's to the LAPD phonetic letter names",
+  "AUTHOR" => "Graham Ollis <plicease\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0
   },
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     "Lingua::Alphabet::Phonetic" => 0,
     "base" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

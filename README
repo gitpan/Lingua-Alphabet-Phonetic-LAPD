@@ -1,9 +1,9 @@
 NAME
-    Lingua::Alphabet::Phonetic::LAPD - map ABS's to the LAPD phonetic letter
+    Lingua::Alphabet::Phonetic::LAPD - map ABC's to the LAPD phonetic letter
     names
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
      use Lingua::Alphabet::Phonetic;
@@ -30,7 +30,7 @@ INSPIRATION
     1-Adam-Twelve.
 
 AUTHOR
-    Graham Ollis <perl@wdlabs.com>
+    Graham Ollis <plicease@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2012 by Graham Ollis.

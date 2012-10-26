@@ -4,8 +4,8 @@ use strict;
 use warnings;
 use base 'Lingua::Alphabet::Phonetic';
 
-# ABSTRACT: map ABS's to the LAPD phonetic letter names
-our $VERSION = '0.01'; # VERSION
+# ABSTRACT: map ABC's to the LAPD phonetic letter names
+our $VERSION = '0.02'; # VERSION
 
 my @asAlphabet = qw(
 Adam Boy Charles David Edward Frank George 
@@ -37,11 +37,11 @@ sub _name_of_letter
 
 =head1 NAME
 
-Lingua::Alphabet::Phonetic::LAPD - map ABS's to the LAPD phonetic letter names
+Lingua::Alphabet::Phonetic::LAPD - map ABC's to the LAPD phonetic letter names
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -73,7 +73,7 @@ Unfortunately 1-A-12 comes back as 1-Adam-OneTwo instead of
 
 =head1 AUTHOR
 
-Graham Ollis <perl@wdlabs.com>
+Graham Ollis <plicease@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
